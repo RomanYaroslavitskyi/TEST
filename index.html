@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <img
+        id="logo"
+        src="images/googleLogo.png"
+        alt="Logotype"
+        class="googleImage"
+      />
+
+      <form name="searchquery">
+        <input
+          class="searchString"
+          type="text"
+          placeholder="Шукайте в Google або введіть URL-адресу"
+        />
+        <img class="searchIcon" src="images/searchIcon.svg" alt="Search icon" />
+        <img
+          class="microphoneIcon"
+          src="images/microphoneIcon.svg"
+          alt="Microphone icon"
+        />
+        <img
+          class="keyboardIcon"
+          src="images/keyboardIcon.svg"
+          alt="Keyboard icon"
+        />
+        <div class="searchMenu_List">
+          <button type="submit" class="searchMenu_Buttom">Пошук Google</button>
+          <button type="submit" class="searchMenu_Buttom" onclick="changeImg()">
+            Мені пощастить
+          </button>
+        </div>
+      </form>
+
+      <div class="main_LanguageChange">
+        <p class="">
+          Мова Google:
+          <a class="changeLanguage_Link" rel="stylesheet" type="text" href=""
+            >English
+          </a>
+          <a class="changeLanguage_Link" rel="stylesheet" type="text" href=""
+            >руский</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="JS/script.js"></script>
+</html>
