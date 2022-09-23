@@ -3,4 +3,5 @@ function changeImg() {
   img.src = "./images/ilMakiage.jpg";
   img.classList.remove("googleImage");
   img.classList.add("ilmakiageImage");
+  event.preventDefault();
 }
